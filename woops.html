@@ -3,23 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- Discord/Open Graph Meta Tags -->
     <meta property="og:title" content="You're Inside Low Quality">
     <meta property="og:description" content="A designated space for users whose behavior disrupts general chat">
-    <meta property="og:type" content="website"> 
-    <meta property="og:url" content="https://nwaps.github.io/lq/">
-    
+    <meta property="og:type" content="website">
+
+    <!-- Video meta tags -->
+    <meta property="og:video" content="https://nwaps.github.io/lq/Low_quality_poster.mp4">
+    <meta property="og:video:secure_url" content="https://nwaps.github.io/lq/Low_quality_poster.mp4">
+    <meta property="og:video:type" content="video/mp4">
+    <meta property="og:video:width" content="1920">
+    <meta property="og:video:height" content="1080">
+
     <!-- Add a thumbnail image instead of trying to embed the video -->
     <meta property="og:image" content="https://nwaps.github.io/lq/image.png">
     <meta property="og:image:width" content="1920">
     <meta property="og:image:height" content="1080">
     
-    <!-- Optional: Discord-specific -->
-    <meta name="theme-color" content="#AE0000">  <!-- Red color for the embed sidebar -->
-    
+    <!-- Twitter Card tags (optional) -->
+    <meta name="twitter:card" content="player">
+    <meta name="twitter:title" content="You're Inside Low Quality">
+    <meta name="twitter:player" content="https://nwaps.github.io/lq/Low_quality_poster.mp4">
+    <meta name="twitter:player:width" content="1920">
+    <meta name="twitter:player:height" content="1080">
+
     <title>Low Quality Information</title>
-    
+
     <style>
         body {
             margin: 0;
@@ -47,36 +57,14 @@
             color: #5865f2;
             margin-bottom: 20px;
         }
-        .info {
-            margin-top: 20px;
-            padding: 20px;
-            background-color: rgba(88, 101, 242, 0.1);
-            border-radius: 8px;
-            text-align: left;
-        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>You're Inside Low Quality</h1>
-        <video controls autoplay muted>
+        <video controls>
             <source src="Low_quality_poster.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-        <div class="info">
-            <p><strong>Q:</strong> What is Low Quality?</p>
-            <p><strong>A:</strong> Low Quality is a designated space for users whose behavior disrupts general chat</p>
-            <h3>Reasons for being placed here INCLUDE but are NOT limited to:</h3>
-            <ul>
-                <li>Being a consistent nuisance</li>
-                <li>Harassing other users</li>
-                <li>Having a suspicious Discord account</li>
-                <li>Spamming messages or images excessively</li>
-                <li>Posting incoherent or nonsensical content</li>
-                <li>Repeated low-effort or bait posts</li>
-                <li>Needing behavioral improvement as determined by moderation</li>
-            </ul>
-        </div>
     </div>
 </body>
 </html>
