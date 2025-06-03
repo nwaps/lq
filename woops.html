@@ -1,6 +1,67 @@
-<meta property="og:title" content="Your Title">
-<meta property="og:description" content="Your Description">
-<meta property="og:video" content="https://github.com/nwaps/lq/blob/main/Low_quality_poster.mov">
-<meta property="og:video:type" content="video/mp4">
-<meta property="og:video:width" content="1920">
-<meta property="og:video:height" content="1080">
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Discord/Open Graph Meta Tags -->
+    <meta property="og:title" content="You're Inside Low Quality">
+    <meta property="og:description" content="A designated space for users whose behavior disrupts general chat">
+    <meta property="og:type" content="video.other">
+    
+    <!-- Video meta tags -->
+    <meta property="og:video" content="https://nwaps.github.io/lq/Low_quality_poster.mov">
+    <meta property="og:video:secure_url" content="https://nwaps.github.io/lq/videos/Low_quality_poster.mov">
+    <meta property="og:video:type" content="video/quicktime">
+    <meta property="og:video:width" content="1920">
+    <meta property="og:video:height" content="1080">
+    
+    <!-- Twitter Card tags (optional) -->
+    <meta name="twitter:card" content="player">
+    <meta name="twitter:title" content="You're Inside Low Quality">
+    <meta name="twitter:player" content="https://nwaps.github.io/lq/Low_quality_poster.mov">
+    <meta name="twitter:player:width" content="1920">
+    <meta name="twitter:player:height" content="1080">
+    
+    <title>Low Quality Information</title>
+    
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background-color: #2b2d31;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            text-align: center;
+        }
+        video {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        h1 {
+            color: #5865f2;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>You're Inside Low Quality</h1>
+        <video controls>
+            <source src="videos/lq-info.mov" type="video/quicktime">
+            <source src="videos/lq-info.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</body>
+</html>
